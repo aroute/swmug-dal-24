@@ -1,10 +1,10 @@
 # swmug-dal-24
 
-
+> The following is an instructor-led exercises.
 
 ## 1. Connect to your Remote Work Environment
 
-Double-click the RDP icon to connect to the remote work environment. Username: `Administrator`, Password: `Passw0rd01`.
+Double-click the RDP icon to connect to your remote work environment. Username: `Administrator`, Password: `Passw0rd01`.
 
 **All needed passwords have been provided to you in a password file available on the desktop.**
 
@@ -53,7 +53,7 @@ We have taken a backup of the Maximo 7.x instance using the standard DB2 backup 
 
 4.1 Connect to the database server using the available RDP icon from the desktop.
 
-4.2 Open PowerShell to download the restore database script.
+4.2 Open PowerShell to download the restore-database script.
 ```powershell
 Invoke-WebRequest -Uri https://gist.githubusercontent.com/aroute/9b41d9cb6e6cd3af341deedcc006bf2a/raw/6039688f10361a614ae3ec40d32bf7d1eb6f16fb/db2_restore.bat -OutFile C:\IBM\SQLLIB\BIN\db2_restore.bat
 ```
@@ -98,7 +98,7 @@ select varvalue from maxvars where varname = 'MAXUPG';
 cd mas8
 ```
 
-5.2 Run this command to start MASCLI using docker.
+5.2 Run this command to start MASCLI.
 ```shell
 docker run -it --pull always -v ${PWD}:/mas8 --name ibmmas quay.io/ibmmas/cli:7.14.1
 ```
