@@ -104,10 +104,12 @@ select varvalue from maxvars where varname = 'MAXUPG';
 cd C:\mas8
 ```
 
-5.2 Run this command to start MASCLI.
+5.2 Run this command to start MASCLI container.
 ```PowerShell
 docker run -it --pull always -v ${PWD}:/mas8 --name ibmmas quay.io/ibmmas/cli:7.14.1
 ```
+
+5.3 Log in to OCP.
 
 **Interactive**
 
