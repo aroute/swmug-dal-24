@@ -61,18 +61,14 @@ We have taken a backup of the Maximo 7.x instance using the standard DB2 backup 
 
 4.1 Connect to the database server using the available RDP icon from the desktop.
 
-4.2 Open PowerShell to download the restore-database script.
-```powershell
-Invoke-WebRequest -Uri https://gist.githubusercontent.com/aroute/9b41d9cb6e6cd3af341deedcc006bf2a/raw/6039688f10361a614ae3ec40d32bf7d1eb6f16fb/db2_restore.bat -OutFile C:\IBM\SQLLIB\BIN\db2_restore.bat
-```
-4.3 Open DB2 Command Window Administrator and run this script.
+4.2 Open DB2 Command Window Administrator and run this script.
 ```bat
 db2_restore.bat
 ```
 
 **Wait.**
 
-4.4 Using DBeaver installed on your server, test newly created `MAXDB80` database.
+4.3 Using DBeaver installed on your server, test newly created `MAXDB80` database.
 ```
 hostname: localhost
 DB: maxdb80
@@ -80,7 +76,7 @@ username: db2admin
 password: Passw0rd01
 port: 50005
 ```
-4.5 Run SQL query to identify Maximo database's version level.
+4.4 Run SQL query to identify Maximo database's version level.
 ```sql
 select varvalue from maxvars where varname = 'MAXUPG';
 ```
