@@ -1,6 +1,6 @@
 # swmug-dal-24
 
-> The following is an instructor-led exercises.
+> The following is an instructor-led lab.
 
 ## 1. Connect to your Remote Work Environment
 
