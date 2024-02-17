@@ -41,9 +41,15 @@ sudo su -
 
 3.1 Connect to the **BeforeCustomization** server using the available RDP icon from the desktop.
 
+BeforeCustomization
 http://max76vmw.maximo.demo:9080/maximo
 
 **Interactive**
+
+AfterCustomization
+http://max76vmw.demo.local:9080/maximo
+
+`maxadmin / Passw0rd01`
 
 ---
 
