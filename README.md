@@ -101,7 +101,7 @@ select varvalue from maxvars where varname = 'MAXUPG';
 
 ⏰ 1 hour 30 minutes.
 
-5.1 Open a new PowerShell window and change directory.
+5.1 Open a new PowerShell window and change directory. We are providing a short term MAS evaluation license for this workshop, which is placed on this directory.
 ```PowerShell
 cd C:\mas8
 ```
