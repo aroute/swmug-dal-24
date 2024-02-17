@@ -69,13 +69,15 @@ db2_restore.bat
 **Wait.**
 
 4.3 Using DBeaver installed on your server, test newly created `MAXDB80` database.
-```
-hostname: localhost
-DB: maxdb80
-username: db2admin
-password: Passw0rd01
-port: 50005
-```
+
+|Key  |Value  |
+|:----|---|
+|Hostname  |localhost  |
+|Database  |maxdb80  |
+|Username  |db2admin  |
+|Password  |Passw0rd01  |
+|Port  |50005  |
+
 4.4 Run SQL query to identify Maximo database's version level (at 7.x).
 ```sql
 select varvalue from maxvars where varname = 'MAXUPG';
@@ -117,11 +119,11 @@ docker run -it --pull always -v ${PWD}:/mas8 --name ibmmas quay.io/ibmmas/cli:7.
 ```
 https://democore-cos-cos-standard.s3.us-east.cloud-object-storage.appdomain.cloud/custasset_bin.zip
 ```
-```
-MAS_JDBC_USER=db2admin
-MAS_JDBC_PASSWORD=Passw0rd01
-MAS_JDBC_URL=jdbc:db2://192.168.252.105:50005/maxdb80
-Schema=MAXIMO
-Table space=MAXDATA
-Index space=MAXINDEX
-```
+|Key  |Value  |
+|:----|---|
+|MAS_JDBC_USER  |db2admin  |
+|MAS_JDBC_PASSWORD  |Passw0rd01  |
+|MAS_JDBC_URL  |jdbc:db2://192.168.252.105:50005/maxdb80  |
+|Schema  |MAXIMO  |
+|Table space  |MAXDATA  |
+|Index space  |MAXINDEX  |
