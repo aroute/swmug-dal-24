@@ -41,10 +41,10 @@ sudo su -
 
 3.1 Connect to the **BeforeCustomization** server using the available RDP icon from the desktop.
 
+**Interactive**
+
 BeforeCustomization
 http://max76vmw.maximo.demo:9080/maximo
-
-**Interactive**
 
 AfterCustomization
 http://max76vmw.demo.local:9080/maximo
@@ -59,7 +59,7 @@ http://max76vmw.demo.local:9080/maximo
 
 We have taken a backup of the Maximo 7.x instance using the standard DB2 backup commands. Your task is to create a new database and restore the data.
 
-4.1 Connect to the database server using the available RDP icon from the desktop.
+4.1 Connect to the database server using the available RDP icon `win_db2_server` from the desktop.
 
 4.2 Open DB2 Command Window Administrator and run this script.
 ```bat
@@ -76,7 +76,7 @@ username: db2admin
 password: Passw0rd01
 port: 50005
 ```
-4.4 Run SQL query to identify Maximo database's version level.
+4.4 Run SQL query to identify Maximo database's version level (at 7.x).
 ```sql
 select varvalue from maxvars where varname = 'MAXUPG';
 ```
