@@ -118,7 +118,7 @@ https://democore-cos-cos-standard.s3.us-east.cloud-object-storage.appdomain.clou
 ```
 MAS_JDBC_USER=db2admin
 MAS_JDBC_PASSWORD=Passw0rd01
-MAS_JDBC_URL=jdbc:db2://192.168.252.110:50005/maxdb80
+MAS_JDBC_URL=jdbc:db2://192.168.252.105:50005/maxdb80
 Schema=MAXIMO
 Table space=MAXDATA
 Index space=MAXINDEX
