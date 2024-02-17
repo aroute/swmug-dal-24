@@ -99,13 +99,13 @@ select varvalue from maxvars where varname = 'MAXUPG';
 
 ⏰ 1 hour 30 minutes.
 
-5.1 Open PowerShell and change directory.
-```shell
-cd mas8
+5.1 Open a new PowerShell window and change directory.
+```PowerShell
+cd C:\mas8
 ```
 
 5.2 Run this command to start MASCLI.
-```shell
+```PowerShell
 docker run -it --pull always -v ${PWD}:/mas8 --name ibmmas quay.io/ibmmas/cli:7.14.1
 ```
 
