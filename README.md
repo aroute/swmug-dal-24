@@ -41,6 +41,8 @@ sudo su -
 
 3.1 Connect to the **BeforeCustomization** server using the available RDP icon from the desktop.
 
+http://max76vmw.maximo.demo:9080/maximo
+
 **Interactive**
 
 ---
@@ -86,6 +88,8 @@ select varvalue from maxvars where varname = 'MAXUPG';
 2.6 Log in to OCP using the Console URL and the `ocpadmin` credentials by clicking on **Daffy htpasswd Provider**.
 
 2.7 Ensure green check marks.
+
+2.8 Log in to vCenter to review control-plane/worker nodes.
 
 ---
 
