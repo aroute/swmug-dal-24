@@ -83,7 +83,7 @@ select varvalue from maxvars where varname = 'MAXUPG';
 
 2.5 When OCP is installed, you will see a final output on your terminal containing credentials and URLs. Copy and save the content into your password file.
 
-2.6 Log in to OCP using the Console URL and the `ocpadmin` credentials by clicking on daffyhtprovider.
+2.6 Log in to OCP using the Console URL and the `ocpadmin` credentials by clicking on **Daffy htpasswd Provider**.
 
 2.7 Ensure green check marks.
 
