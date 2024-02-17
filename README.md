@@ -12,7 +12,7 @@ Double-click the RDP icon to connect to your remote work environment. Username: 
 
 ## 2a. Prepare/start OCP
 
-Log in and download your pull-secret from: [https://console.redhat.com](https://console.redhat.com)
+Log in and download your pull-secret from: [https://console.redhat.com/openshift/downloads#tool-pull-secret](https://console.redhat.com/openshift/downloads#tool-pull-secret)
 
 ⏰ 45 minutes hour-glass wait time.
 
