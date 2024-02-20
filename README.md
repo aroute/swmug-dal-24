@@ -10,7 +10,7 @@ Log in and download your pull-secret from: [https://console.redhat.com/openshift
 
 ### Open PowerShell and SSH to a bastion node
 
-> Review vCenter before starting.
+> Quick review of vCenter before starting.
 
 1.1 Remote connect using Secure Shell.
 ```shell
