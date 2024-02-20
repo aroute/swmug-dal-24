@@ -8,7 +8,7 @@ Log in and download your pull-secret from: [https://console.redhat.com/openshift
 
 ⏰ 45 minutes hour-glass wait time.
 
-### Open PowrShell and SSH to a bastion node
+### Open PowerShell and SSH to a bastion node
 
 > Review vCenter before starting.
 
