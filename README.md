@@ -2,13 +2,15 @@
 
 > The following is an instructor-led lab.
 
-## 1a. Prepare/start OCP
+## 1a. Prepare/start OCP for on-premise
 
 Log in and download your pull-secret from: [https://console.redhat.com/openshift/downloads#tool-pull-secret](https://console.redhat.com/openshift/downloads#tool-pull-secret)
 
 ⏰ 45 minutes hour-glass wait time.
 
 ### Open PowrShell and SSH to a bastion node
+
+> Review vCenter before starting.
 
 1.1 Remote connect using Secure Shell.
 ```shell
